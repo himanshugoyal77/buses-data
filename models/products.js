@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const productSchema = new mongoose.Schema(
     {
         "route_no": {
-          "type": "Date"
+          "type": "String"
         },
         "origin": {
           "type": "String"
@@ -12,7 +12,7 @@ const productSchema = new mongoose.Schema(
           "type": "String"
         },
         "distance": {
-          "type": "Date"
+          "type": "String"
         },
         "departure_origin": {
           "type": [
