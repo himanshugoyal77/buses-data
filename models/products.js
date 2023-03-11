@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const productSchema = new mongoose.Schema(
     {
-        "bus_no": {
+        "route_no": {
           "type": "String"
         },
         "origin": {
@@ -11,10 +11,10 @@ const productSchema = new mongoose.Schema(
         "destination": {
           "type": "String"
         },
-        "journney_distance": {
+        "distance": {
           "type": "String"
         },
-        "departure_from_origin": {
+        "departure_origin": {
           "type": [
             "String"
           ]
